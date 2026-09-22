@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===== Datos confidenciales del socio formador =====
+data/
+*.csv
+*.xlsx
+*.xls
+*.pdf
+
+# ===== Editores =====
+# JetBrains (DataSpell, PyCharm)
+.idea/
+# VS Code
+.vscode/
+
+# ===== Sistemas operativos =====
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
