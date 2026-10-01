@@ -17,14 +17,9 @@ __pycache__/
 ## Modelos
 models/
 
-## Datos: ajustado para este reto
+## Datos: Ajustar extensiones según se necesite
 data/raw/*.csv
-data/raw/*.xlsx
-data/raw/*.xls
-data/raw/*.pdf
 data/processed/*.csv
-data/processed/*.xlsx
-!data/raw/.gitkeep
 !data/processed/.gitkeep
 
 ## Reportes
@@ -33,15 +28,10 @@ data/processed/*.xlsx
 ## Archivos del sistema operativo
 .DS_Store
 Thumbs.db
-desktop.ini
 
 ## Editores
 .vscode/
 .idea/
-
-## R
-.Rhistory
-.RData
 
 ## pytest
 .pytest_cache/
